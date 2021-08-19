@@ -49,7 +49,6 @@ public class Log : NSObject {
     }()
     
     static func debugLog(_ object:Any, line: Int = #line) {
-        guard AppData.shared.dynamicAppConfig.enableLogs else { return }
         let time = shared.gmtDateFormatter.string(from: Date())
         
         let log = "\n\n\n==================================\n\nTIME : \(time)\n\(object)\n"

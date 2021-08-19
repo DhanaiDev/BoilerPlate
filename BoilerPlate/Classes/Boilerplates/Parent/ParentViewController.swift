@@ -1,9 +1,8 @@
 //
-//  TradlyParentViewController.swift
-//  Tradly
+//  ParentViewController.swift
+//  BoilerPlate
 //
-//  Created by Vignesh on 28/03/20.
-//  Copyright © 2020 tradly. All rights reserved.
+//  Created by dhanasekaran on 18/08/21.
 //
 
 import UIKit
